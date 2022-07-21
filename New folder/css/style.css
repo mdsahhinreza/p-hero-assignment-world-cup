@@ -192,13 +192,9 @@ upcomming page style
     justify-content: space-between;
     
 }
-.team-image{
-    width: 100%;
-}
 .team-content{
     text-align: center;
 }
-
 
 /* ----------------------------
 media quiery for tab device 
@@ -206,127 +202,19 @@ media quiery for tab device
 @media (min-width:481px) and (max-width:768px) {
     body{
         /* width: 834px; */
-        /* background-color: lightpink; */
+        background-color: lightpink;
     }
     .container{
-        width: 692px;
+        max-width: 734;
         margin: 0 auto;
     }
-    .banner-content{
-        padding: 45px 0px 45px 45px;
-    }
-    
     .banner-content h1{
-        font-size: 35px;
-        line-height: 35px;
+        font-size: 22px;
         font-weight: 700;
-    }
-    .banner-image img {
-        position: relative;
-        width: 100%;
-        top: 0px;
     }
 
     .blogs{
         grid-template-columns: repeat(2, 1fr);
-        gap: 24px;
-    }
-    .navigation {
-        padding: 14px 17px;
-        height: 177px;
-    }
-    .menu a {
-        font-size: 15px;
-        padding: 6px 0px;
-    }
-
-    /* upcomming page */
-    .matcehs{
-        grid-template-columns: repeat(2, 1fr);
-        gap: 24px;
-    }
-    .team-content h2{
-        font-size: 18px;
-    }
-}
-
-/* ----------------------------
-media quiery for Mobile device 
--------------------------------*/
-
-@media (min-width:320px) and (max-width: 480px) {
-    body{
-        margin: 0px auto;
-        /* background-color: lightpink; */
-    }
-
-    .container{
-        width: 95%;
-        margin: 0 auto;
-    }
-
-    .banner{   
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        margin-top: 50px;
-    }
-    .banner-content {
-        padding: 42px 56px;
-        text-align: center;
-    }
-
-    .banner-image{
-        text-align: center;
-        width: 68%;
-        margin: auto;
-    }
-
-    .banner-content h1 {
-        font-size: 33px;
-        font-weight: 700;
-        line-height: 52px;
-        color: white;
-        margin: 0;
-        text-align: center;
-    }
-
-    .blog-section{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .navigation {
-        background: #161616;
-        border-radius: 10px;
-        padding: 15px 30px;
-        margin-right: auto;
-        width: 385px;
-        height: 277px;
-        margin-bottom: 10px;
-    }
-
-    .blogs{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 24px;
-    }
-
-    .footer-menu{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        justify-items: center;
-        margin: auto;
-    }
-    .footer-section {
-        background-color: #161616;
-        padding: 35px 0px;
-    }
-
-
-    /* Upcomming Page */
-    .matcehs{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
         gap: 24px;
     }
 }
