@@ -200,6 +200,17 @@ upcomming page style
     text-align: center;
 }
 
+/* Social Icon Style */
+.social-icons{
+    text-align: center;
+    margin-top: 20px;
+}
+.social-icons .icon{
+    font-size: 36px;
+    padding: 0px 5px;
+    color: #fff;
+}    
+
 
 /* ----------------------------
 media quiery for tab device 
